@@ -1,0 +1,201 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav{
+    font-family: 'Allerta Stencil', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+/*----------HOME PAGE START ----------*/
+
+#con2020{
+    /* min-height: calc(100vh); */
+    background: rgb(255,0,0);
+    background: linear-gradient(169deg, rgba(255,0,0,.05) 0%, rgba(51, 0, 255, 0.15) 70%, rgba(0,212,255,.4) 100%);
+    /* background-image: url("assets/img/logos/collisionTrans.png"); */
+}
+
+#con2020 img{
+    width: 400px;
+    max-width: 80%;
+    display: block;
+    margin-right: 0px;
+}
+
+#emergenceGroup {
+  background-image: url("../img/emergenceGroup.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*----------HOME PAGE END ----------*/
+
+
+
+/*----------ABOUT PAGE START ----------*/
+
+#eboard img{
+    width: 200px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+#eboard h3{
+    margin-bottom: 5px;
+}
+
+#eboard h4{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#about-header-image {
+  min-height: 540px;
+}
+
+#about-header-image .jumbotron {
+  max-width: 720px;
+}
+
+.transluscent-bg{
+    background-color: black;
+    opacity: .85;
+    border-radius: 10px;
+}
+
+#sponsors img{
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+
+/*----------ABOUT PAGE END ----------*/
+
+/*---------CONFERENCE PAGE START ------*/
+
+/* x-small screens */
+@media (max-width: 575.98px) {
+  #heading-spacer {
+    min-height: 12rem;
+  }
+ }
+
+/* small screens */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #heading-spacer {
+    min-height: 20rem;
+  }
+ }
+
+/* medium screens */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #heading-spacer {
+    min-height: 20rem;
+  }
+ }
+
+/* large screens */
+@media (min-width: 992px) {
+  #heading-spacer {
+    min-height: 12rem;
+  }
+ }
+
+#workshops1 button{
+  margin-bottom: 1rem;
+  border-color: hsl(0, 0%, 50%);
+  font-weight: bold;
+  white-space: normal !important;
+  word-wrap: break-word;
+  padding: 1rem;
+}
+
+#workshops1 .card-body{
+    /* margin-bottom: -0px; */
+    margin-bottom: 1rem;
+}
+
+#schedule {
+  font-size: 14px;
+}
+
+.time, .location, .event {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 1px hsl(0, 0%, 85%) solid;
+}
+
+.event {
+  padding: 0;
+  /* border-radius: 4px; */
+  font-size: 15px;
+}.event:hover {
+  background-color: hsl(208, 54%, 90%);
+}
+
+.sched-link {
+  display: block;
+  font-weight: bold;
+  padding: 0.5rem;
+  padding-left: 15px;
+  color: black;
+}.sched-link:hover {
+  color: inherit;
+}
+
+
+/*---------CONFERENCE PAGE end ------*/
+
+
+/*----------HLS PAGE START ----------*/
+
+#header-background {
+  background-image: linear-gradient(to right, rgba(223, 100, 100, 1) 40%, rgba(255, 255, 255, 0.5)), url("../img/hslBoard.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.hsl-portfolio-caption {
+  padding: 20px;
+  background-color: rgba(223, 100, 100, 0.1);
+}
+
+
+
+/*----------HSL PAGE END ----------*/
+
+/*----------RESOURCES PAGE END ----------*/
+
+#resources h3{
+    margin-top: 15px;
+}
+
+#resources p{
+    font-size: 1.2em;
+}
+
+#resources .col-12{
+    max-width: 800px;
+}
+
+/*----------RESOURCES PAGE END ----------*/
+
+
+
+/*----------FOOTER PAGE START ----------*/
+
+footer i{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    color: black;
+}
+
+/*----------FOOTER PAGE END ----------*/

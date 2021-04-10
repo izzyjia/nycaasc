@@ -6,5 +6,5 @@
 	ignorecase = true
 	precomposeunicode = true
 [remote "heroku"]
-	url = https://git.heroku.com/mysterious-sierra-82959.git
+	url = https://git.heroku.com/nycaasc-website.git
 	fetch = +refs/heads/*:refs/remotes/heroku/*

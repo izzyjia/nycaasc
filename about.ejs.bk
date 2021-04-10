@@ -22,16 +22,6 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68409586-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-68409586-1');
-    </script>
-
     <title>NYCAASC | About</title>
   </head>
   <body>
@@ -52,10 +42,10 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="conference.html">Conference</a>
+            <a class="nav-link" href="hsl.html">Youth Program</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="resources.html">Tech Resources</a>
+            <a class="nav-link" href="resources.html">Resources</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -110,7 +100,7 @@
       </div>
     </section>
 
-	  <section id="eboard">
+    <section id="eboard">
       <div class="container">
         <div class="row">
 
@@ -128,7 +118,7 @@
          </div>
 
          <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
-          <img src="assets/img/e-board/marva.jpg">
+          <img src="assets/img/e-board/squPlaceholder.jpg">
           <h3>Marva Shi</h3>
           <h4>Co-Director</h4>
           <h5>New York University</h5>
@@ -183,7 +173,7 @@
    </div>
 
    <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
-    <img src="assets/img/e-board/bonnie.jpeg">
+    <img src="assets/img/e-board/bonnie.jpg">
     <h3>Bonnie Chen</h3>
     <h4>Workshops Chair</h4>
     <h5>Brandeis University</h5>
@@ -191,13 +181,14 @@
     </p>
    </div>
 
+
    <div class="col-12 mb-4">
      <h1 class="text-danger">2020 AHM Board</h1>
    </div>
 
    <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
     <img src="assets/img/e-board/dara.jpg">
-    <h3>Dara Yen </h3>
+    <h3>Dara Yen</h3>
     <h4>AHM Co-President</h4>
     <h5>New York University</h5>
    </div>
@@ -211,7 +202,7 @@
 
    <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
     <img src="assets/img/e-board/gina.jpg">
-    <h3>Jina Shi </h3>
+    <h3>Jina Shi</h3>
     <h4>AHM Treasurer</h4>
     <h5>New York University</h5>
    </div>
